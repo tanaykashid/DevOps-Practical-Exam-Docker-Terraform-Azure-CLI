@@ -1,0 +1,5 @@
+docker run -itd -v /root/terraform-workspace:/workspace  --name terraform-container terraform-azure-env:latest 
+
+
+
+docker build -f terraform-azure-env -t terraform-azure-env .
