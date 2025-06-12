@@ -1,0 +1,8 @@
+Task 1: Docker Image Preparation
+Pull the latest Ubuntu image from Docker Hub.
+Create a Dockerfile that:
+Uses ubuntu:latest as base
+Installs Terraform
+Installs Azure CLI
+Installs required tools: curl, unzip, apt-transport-https, gnupg, etc.
+📦 Deliverable: Dockerfile
